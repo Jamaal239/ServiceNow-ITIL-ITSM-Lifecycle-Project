@@ -6,9 +6,9 @@ A complete IT Service Management (ITSM) implementation case study executed withi
 
 ## 📸 Project Walkthrough
 
-### Step 1: Initiating the Outage Log
+### Step 1: Initializing the Incident Record
 ![Step 1](screenshots/screenshot_1.png)
-* Opened a clean record in the `incident` table to track a new production server disruption.
+* Opened a clean tracking row in the `incident` database table to log a production server disruption.
 
 ### Step 2: Categorizing the Server Fault
 ![Step 2](screenshots/screenshot_2.png)
@@ -68,11 +68,11 @@ A complete IT Service Management (ITSM) implementation case study executed withi
 
 ### Step 16: CMDB Server Asset Initialization
 ![Step 16](screenshots/screenshot_16.png)
-* Opened a blank asset configuration row inside the `cmdb_ci_server` class table.
+* Initialized a new Configuration Item (CI) record within the `cmdb_ci_server` class table.
 
 ### Step 17: Registering Infrastructure Configuration Data
 ![Step 17](screenshots/screenshot_17.png)
-* Customized the form view to provision the server name, unique asset tag, and network IP address (`10.10.42.11`).
+* Populated host configuration metrics including server name, asset tag, and network IP address (`10.10.42.11`).
 
 ### Step 18: Initializing the CMDB Relationship Map
 ![Step 18](screenshots/screenshot_18.png)
