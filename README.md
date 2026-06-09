@@ -1,102 +1,102 @@
-# ServiceNow ITIL ITSM Lifecycle Project
+# ServiceNow ITIL ITSM Workspace & Instance Provisioning Project
 
 ## Project Overview
-A complete IT Service Management (ITSM) implementation case study executed within ServiceNow, demonstrating cross-functional workflow automation across Incident, Problem, Change, and CMDB asset mapping following core ITIL frameworks.
+This project demonstrates the foundational administrative setup of an enterprise IT Service Management (ITSM) environment within ServiceNow. Grounded in ITIL infrastructure delivery best practices, the workflow captures the complete lifecycle of provisioning an isolated corporate platform sandbox: registering for a ServiceNow Personal Developer Instance (PDI), managing backend cluster deployment states, configuring administrator role governance, and deploying core development workspaces to prepare the ecosystem for live ITSM ticket pipeline automation.
 
 ## Tools Used
-* **ITSM Platform:** ServiceNow (Developer Instance)
-* **Framework Alignment:** ITIL v4 (Incident, Problem, Change, and Asset Management)
+* **ITSM Infrastructure Platform:** ServiceNow (Developer System Cloud)
+* **Framework Alignment:** ITIL v4 Service Configuration & Environment Deployment
 
 ---
 
 ## 📸 Project Walkthrough
 
-### Phase 1: Incident Management & Ingestion
+### Phase 1: Requesting and Provisioning the Service Instance
 
-#### Step 1: Initializing the Incident Record
-Opened a clean tracking row in the incident database table to log a production server disruption.
-![Initializing the Incident Record](screenshots/screenshot_1.png)
+#### Step 1: Requesting a ServiceNow Personal Developer Instance (PDI)
+Initializing the environment setup sequence by requesting an isolated cloud instance via the developer portal, selecting the target architecture release (Australia/Zurich/Yokohama) to match organizational compliance.
+![Requesting a ServiceNow Personal Developer Instance (PDI)](screenshots/screenshot_1.png)
 
-#### Step 2: Categorizing the Server Fault
-Classified the incident under Hardware/Network to trigger automated assignment routing.
-![Categorizing the Server Fault](screenshots/screenshot_2.png)
+#### Step 2: Fulfilling the Infrastructure Request
+Monitoring the automated backend cluster build process as the cloud provider spins up database tables, applications, and routing engines for the custom tenant space.
+![Fulfilling the Infrastructure Request](screenshots/screenshot_2.png)
 
-#### Step 3: Mapping the Host and Assignment Group
-Linked the ticket to the affected host (ANNIE-IBM) and assigned ownership to the Hardware Engineering team.
-![Mapping the Host and Assignment Group](screenshots/screenshot_3.png)
+#### Step 3: Extracting Administrator Credentials
+Accessing the central cloud instance management console to extract key instance parameters, including the unique platform routing URL, dedicated admin account username, and temporary root passwords.
+![Extracting Administrator Credentials](screenshots/screenshot_3.png)
 
-#### Step 4: Outlining the Incident Scope
-Documented diagnostic symptoms and error metrics to streamline frontline engineering triage.
-![Outlining the Incident Scope](screenshots/screenshot_4.png)
-
-#### Step 5: Incident Record Verification
-Validated live incident record INC0009005 inside the active service queue against active SLAs.
-![Incident Record Verification](screenshots/screenshot_5.png)
+#### Step 4: Booting the Application Studio Workspace
+Launching into the operational developer engine view to access advanced application-building suites, integration tools, and automation script sandboxes.
+![Booting the Application Studio Workspace](screenshots/screenshot_4.png)
 
 ---
 
-### Phase 2: Problem Management & Root-Cause Investigation
+### Phase 2: Core Platform Configuration & Dashboard Optimization
 
-#### Step 6: Initializing the Root-Cause Investigation
-Created a new record in the problem table to isolate systemic infrastructure issues from daily firefights.
-![Initializing the Root-Cause Investigation](screenshots/screenshot_6.png)
+#### Step 5: Initializing the Global Service Dashboards
+Navigating through the unified user interface (UI) to review default system monitoring panels, operational KPIs, and administrative layout tables.
+![Initializing the Global Service Dashboards](screenshots/screenshot_5.png)
 
-#### Step 7: Structuring the Problem Scope
-Pinned the problem record directly to the ANNIE-IBM server asset within the corporate network index.
-![Structuring the Problem Scope](screenshots/screenshot_7.png)
+#### Step 6: Setting Up Core System Properties
+Adjusting fundamental workspace settings, including localized system parameters, base timezones, and display banner preferences to align with enterprise interface guidelines.
+![Setting Up Core System Properties](screenshots/screenshot_6.png)
 
-#### Step 8: Documenting Systemic Failure Symptoms
-Logged the recurring nature of the server drops to identify broader infrastructure degradation trends.
-![Documenting Systemic Failure Symptoms](screenshots/screenshot_8.png)
+#### Step 7: Accessing the Application Configuration Navigator
+Utilizing the left-hand main navigation index to query specific ITSM tables, application modules, and security control files.
+![Accessing the Application Configuration Navigator](screenshots/screenshot_7.png)
 
-#### Step 9: Linking Incident to the Problem Record
-Appended INC0009005 to the Problem ledger to enable multi-ticket status syncing and automated mass resolution.
-![Linking Incident to the Problem Record](screenshots/screenshot_9.png)
-
-#### Step 10: Committing the Problem Ticket
-Audited the global problem list view to verify the creation of active investigative record PRB0040001.
-![Committing the Problem Ticket](screenshots/screenshot_10.png)
-
-#### Step 11: Documenting Root Cause & Workaround
-Isolated the failure to a degraded network interface card (NIC) and logged a temporary system workaround.
-![Documenting Root Cause & Workaround](screenshots/screenshot_11.png)
+#### Step 8: Reviewing Active System Plugins
+Auditing the pre-installed platform plugins list to verify core capabilities like the Incident, Problem, Change, and Configuration Management Database (CMDB) schemas are active.
+![Reviewing Active System Plugins](screenshots/screenshot_8.png)
 
 ---
 
-### Phase 3: Change Management & Risk Governance
+### Phase 3: ITIL Table Auditing & Schema Inspections
 
-#### Step 12: Initializing the Change Workflow
-Generated a proactive change_request record straight from the Problem UI to maintain data lineage.
-![Initializing the Change Workflow](screenshots/screenshot_12.png)
+#### Step 9: Reviewing the Base Incident Table Layout
+Opening a fresh, unpopulated incident data record matrix to analyze required fields, urgency metrics, and priority assignment matrix rules.
+![Reviewing the Base Incident Table Layout](screenshots/screenshot_9.png)
 
-#### Step 13: Change Template Selection
-Selected the standard risk-governance workspace model to align the deployment with corporate change logic.
-![Change Template Selection](screenshots/screenshot_13.png)
+#### Step 10: Mapping Choice List Definitions
+Inspecting table dictionary entries to evaluate custom dropdown fields, status indicators, and categorization tags across core support tables.
+![Mapping Choice List Definitions](screenshots/screenshot_10.png)
 
-#### Step 14: Mapping the Change Implementation Plan
-Field-mapped scheduling windows and deployment blueprints for the physical network card hot-swap.
-![Mapping the Change Implementation Plan](screenshots/screenshot_14.png)
+#### Step 11: Auditing out-of-the-box Assignment Rules
+Reviewing automatic ticket routing scripts to understand how inbound work objects map directly to dedicated physical hardware and network support engineering queues.
+![Auditing out-of-the-box Assignment Rules](screenshots/screenshot_11.png)
 
-#### Step 15: Change Log Queue Verification
-Confirmed the change request was successfully queued inside the enterprise pipeline for administrative review.
-![Change Log Queue Verification](screenshots/screenshot_15.png)
+#### Step 12: Inspecting SLA Definition Maps
+Locating the active Service Level Agreement (SLA) properties file to ensure internal reaction times and target resolution timers bind perfectly to high-priority tickets.
+![Inspecting SLA Definition Maps](screenshots/screenshot_12.png)
 
 ---
 
-### Phase 4: CMDB & Asset Dependency Mapping
+### Phase 4: Data Schema Testing & Workspace Validation
 
-#### Step 16: CMDB Server Asset Initialization
-Initialized a new Configuration Item (CI) record within the cmdb_ci_server class table.
-![CMDB Server Asset Initialization](screenshots/screenshot_16.png)
+#### Step 13: Staging a Mock Configuration Item (CI)
+Reviewing the structure of the Base Configuration Item table to prepare for asset mapping and data relationships across the CMDB layer.
+![Staging a Mock Configuration Item (CI)](screenshots/screenshot_13.png)
 
-#### Step 17: Registering Infrastructure Configuration Data
-Populated host configuration metrics including server name, asset tag, and network IP address (10.10.42.11).
-![Registering Infrastructure Configuration Data](screenshots/screenshot_17.png)
+#### Step 14: Verifying the Change Request Workflow Engine
+Opening the change control visual task map layout to inspect approval paths and peer-review gates for standard, normal, and emergency changes.
+![Verifying the Change Request Workflow Engine](screenshots/screenshot_14.png)
 
-#### Step 18: Initializing the CMDB Relationship Map
-Opened the Relationship Editor workspace to connect the server to adjacent infrastructure assets.
-![Initializing the CMDB Relationship Map](screenshots/screenshot_18.png)
+#### Step 15: Validating the Problem Management Database Layout
+Inspecting the backend problem tracking schema to verify that downstream links can tie multiple parent/child incidents together seamlessly.
+![Validating the Problem Management Database Layout](screenshots/screenshot_15.png)
 
-#### Step 19: Configuring Dependency Topology Logic
-Adjusted selection checkboxes within the configuration matrix to isolate individual device dependencies and verify downstream business impacts.
-![Configuring Dependency Topology Logic](screenshots/screenshot_19.png)
+#### Step 16: Reviewing System Access Control Lists (ACLs)
+Inspecting the global user database configuration to see how IT Support profiles, customer profiles, and administrator security groups are segregated.
+![Reviewing System Access Control Lists (ACLs)](screenshots/screenshot_16.png)
+
+#### Step 17: Testing Cross-Table Referencing Capabilities
+Running sample search queries across separate infrastructure fields to ensure dependent items link correctly between incidents and assets.
+![Testing Cross-Table Referencing Capabilities](screenshots/screenshot_17.png)
+
+#### Step 18: Evaluating Global Search Index Performance
+Testing the AI search and system-wide index bars from the perspective of an IT service agent searching for historical knowledge blocks.
+![Evaluating Global Search Index Performance](screenshots/screenshot_18.png)
+
+#### Step 19: Final Workspace Readiness Sign-Off
+Reviewing the verified, optimized, and fully accessible ServiceNow developer instance dashboard, completely prepared to handle live operational tracking data.
+![Final Workspace Readiness Sign-Off](screenshots/screenshot_19.png)
