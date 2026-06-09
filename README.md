@@ -1,4 +1,4 @@
-# ServiceNow ITIL ITSM Workspace & Instance Provisioning Project
+fix up # ServiceNow ITIL ITSM Workspace & Instance Provisioning Project
 
 ## Project Overview
 This project demonstrates the foundational administrative setup of an enterprise IT Service Management (ITSM) environment within ServiceNow. Grounded in ITIL infrastructure delivery best practices, the workflow captures the complete lifecycle of provisioning an isolated corporate platform sandbox: registering for a ServiceNow Personal Developer Instance (PDI), managing backend cluster deployment states, configuring administrator role governance, and deploying core development workspaces to prepare the ecosystem for live ITSM ticket pipeline automation.
