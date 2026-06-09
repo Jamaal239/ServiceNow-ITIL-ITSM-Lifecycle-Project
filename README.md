@@ -78,3 +78,25 @@ Populating the change request with scheduling, risk analysis, and hardware resol
 ![Documenting the Change Plan and Remediation Scope](screenshots/screenshot_14.png)
 
 #### Step 15: Committing the Change Record to the Master Governance Ledger
+Submitting the change request and auditing the global table to confirm that deployment object CHG0030001 is pending review.
+![Committing the Change Record to the Master Governance Ledger](screenshots/screenshot_15.png)
+
+---
+
+### Phase 4: CMDB Asset Registry Configuration & Verification
+
+#### Step 16: Initializing a CMDB Asset Record (Configuration Management)
+Accessing the Configuration Management Database (CMDB) schema to register a new hardware asset profile within the Server table.
+![Initializing a CMDB Asset Record](screenshots/screenshot_16.png)
+
+#### Step 17: Mapping Configuration Metrics to the Infrastructure CI
+Populating the CMDB asset template with server parameters, including the name (ANNIE-IBM), asset tag (AST-2026-9982), IP address (10.10.42.11), and Linux OS platform.
+![Mapping Configuration Metrics to the Infrastructure CI](screenshots/screenshot_17.png)
+
+#### Step 18: Structuring Configuration Item Dependencies and Relationships
+Using the CI Relationship Editor to establish upstream and downstream dependency mappings for server *ANNIE-IBM.
+![Structuring Configuration Item Dependencies and Relationships](screenshots/screenshot_18.png)
+
+#### Step 19: Final Baseline Verification of the CMDB Repository
+Auditing the master Server repository table (`cmdb_ci_server_list.do`) to verify that the newly deployed server baseline asset record is actively indexed, classified, and discoverable.
+![Final Baseline Verification of the CMDB Repository](screenshots/screenshot_19.png)
